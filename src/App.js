@@ -6,6 +6,7 @@ import Tasks from './components/Tasks';
 import Maps from './components/Maps';
 import Nobel from './components/Nobel';
 import Xmas from './components/Xmas';
+import Footer from './components/Footer';
 import './App.css';
 import './index.css';
 
@@ -20,6 +21,7 @@ function App() {
             <Route path="/nobel" render={() => <Nobel />} />
             <Route path="/xmas" render={() => <Xmas />} />
        </Switch>
+            <Footer />
         </div>
   );
 }
